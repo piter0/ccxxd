@@ -40,7 +40,7 @@ namespace ccxxd
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Error: {e}");
+                Console.WriteLine($"Error: {e.Message}\n");
                 PrintUsage();
             }
         }
